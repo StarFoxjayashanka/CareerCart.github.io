@@ -1,0 +1,130 @@
+#topbar {
+
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    left: 20px;
+    top: 10px;
+    height: 60px;
+    justify-content: space-between;
+    border-radius: 25px;
+    transition: top 0.5s, right 0.5s, left 0.5s, border-radius 1s;
+    z-index: 1000;
+
+
+}
+
+#topbar:hover {
+
+
+    right: 0;
+    left: 0;
+    top: 0;
+    border-radius: 0;
+
+
+}
+
+#tool {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 550px;
+
+}
+
+#name,
+#home,
+#contact,
+#features,
+#software {
+
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: #293847;
+    cursor: pointer;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+
+    height: 40px;
+    width: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+
+    transition: color 0.5s, background-color 0.5s, border 2s;
+
+}
+
+
+#home:hover,
+#contact:hover,
+#features:hover,
+#software:hover {
+
+    cursor: pointer;
+    text-decoration-color: rgba(255, 255, 255, 1);
+    color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    border-color: #293847;
+    background-color: #293847;
+
+
+}
+#contact {
+
+    margin-right: 50px;
+    width: auto;
+
+
+}
+
+#logo {
+
+    cursor: pointer;
+    object-fit: cover;
+    height: 50px;
+    vertical-align: middle;
+
+
+}
+
+
+#logocc {
+
+
+    display: flex;
+    justify-content: left;
+    vertical-align: middle;
+    margin-left: 50px;
+
+
+}
+
+#name {
+
+    font-size: x-large;
+    font-weight: 500;
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    vertical-align: middle;
+    margin-left: 20px;
+
+}
